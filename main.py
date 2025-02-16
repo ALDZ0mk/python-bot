@@ -3,9 +3,9 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 
-TOKEN = "7814285156:AAFjKyTjxHYmNWnokwWhsz2p86WgAoWJH4g"
-OWNER_USERNAME = "@AlAA_MSE"  # معرف المالك
-CHANNEL_ID = "@yazanbac"  # معرف القناة
+TOKEN = "توكن_البوت_هنا"
+OWNER_USERNAME = "@Hfddhht"  # معرف المالك
+CHANNEL_ID = "@YourChannel"  # معرف القناة
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.MARKDOWN)
 dp = Dispatcher(bot)
@@ -86,3 +86,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
